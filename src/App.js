@@ -56,7 +56,7 @@ C.R.I. FLUID SYSTEMS PRODUCTS CATER TO DIVERSE SEGMENTS</p>
 
     <p className=" text-center">
      {
-      SEGMENTS.map((seg,index)=> ( <span key={index}>{seg} { SEGMENTS.length-1!=index && <span className=" text-red-400 text-xl m-1 ">|</span>}</span> ))
+      SEGMENTS.map((seg,index)=> ( <span key={index}>{seg} { SEGMENTS.length-1!==index && <span className=" text-red-400 text-xl m-1 ">|</span>}</span> ))
      }
     
      </p>
